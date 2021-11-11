@@ -35,8 +35,8 @@ try:
     driver.implicitly_wait(10)
     driver.find_element_by_id('login').click()
 
-    driver.find_element_by_xpath('//input[@id="userName"]').send_keys('shreyas')
-    driver.find_element_by_xpath('//input[@id="password"]').send_keys('Qwerty@123')
+    driver.find_element_by_xpath('//input[@id="userName"]').send_keys('')
+    driver.find_element_by_xpath('//input[@id="password"]').send_keys('')
 
     driver.find_element_by_id('login').click()
 
